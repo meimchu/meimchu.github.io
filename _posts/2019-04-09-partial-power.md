@@ -1,7 +1,7 @@
 ---
 layout: post
 title: The power of partial
-date: 2019-04-09 -1000
+date: 2019-04-09
 ---
 
 A little something that I have learned when making a PySide widget at work is the usage of functools' partial. My most basic understanding of this is that it helps passes parameters to a function. A basic representation of partial can be seen here:

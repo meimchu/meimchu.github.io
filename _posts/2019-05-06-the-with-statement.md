@@ -2,7 +2,7 @@
 layout: post
 title: Using python's "with" statement
 author: Mei
-date: 2019-05-06 -1000
+date: 2019-05-06
 ---
 
 Recently, I have learned about the usage of ``with`` statement in python. It has some pretty interesting properties in the sense that it can be nicely used for contextual purposes. Acting very similarly as a ``@ decorator``, the ``with`` is often used to execute codes before and after codes that it wrapped around. Consider this very basic example:
