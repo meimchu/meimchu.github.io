@@ -1,4 +1,4 @@
-title:              Objectively Disorienting Language
+title:              Objectively Disorienting Programmer
 email:              meimchu@gmail.com
 description:        The journey of a junior programmer
 author:             Mei
@@ -6,9 +6,9 @@ baseurl:            ""
 url:                "https://blackrockdigital.github.io"
 
 # Social Profiles
-twitter_username:   
+twitter_username:
 github_username:    meimchu
-facebook_username:  
+facebook_username:
 linkedin_username:
 
 # Add your google-analytics ID here to activate google analytics
