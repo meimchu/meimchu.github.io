@@ -16,8 +16,8 @@ def add(a, b, c):
 
 add_part = partial(add, c=2, b=1)
 
-print add_part(3)
-print add(3, 1, 2)
+print(add_part(3))
+print(add(3, 1, 2))
 ```
 
 Both using the partial function and the function itself will return 6. So, on the surface, it doesn't seem all that special or important. However, consider that Qt signals don't allow for the passing of parameters, partial can be used to circumvent that. Consider this particular [Qt signal tutorial](https://www.pythoncentral.io/pysidepyqt-tutorial-creating-your-own-signals-and-slots/). The basic set up of that signal tutorial is as such:

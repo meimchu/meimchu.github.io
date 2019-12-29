@@ -10,14 +10,14 @@ Recently, I have learned about the usage of ``with`` statement in python. It has
 ```python
 class with_statement(object):
     def __enter__(self):
-        print 'Entering!'
+        print('Entering!')
 
     def __exit__(self, exc_type, exc_val, exc_tb):
-        print 'Exiting!'
+        print('Exiting!')
 
 
 with with_statement():
-    print 'Inbetween string!'
+    print('Inbetween string!')
 ```
 
 So if you were to execute the codes above, here is the result you will see:
@@ -39,16 +39,16 @@ class with_statement_two(object):
         self.withDict = {}
         for i in range(0, 5):
             self.withDict[i] = 'I have %s cat(s)!' % i
-        print 'Calculating how many cats I have...'
+        print('Calculating how many cats I have...')
         return self.withDict
 
     def __exit__(self, exc_type, exc_val, exc_tb):
         if self.dictKey in self.withDict:
-            print self.withDict[self.dictKey]
+            print(self.withDict[self.dictKey])
 
 
 with with_statement_two(2):
-    print 'Inbetween string!'
+    print('Inbetween string!')
 ```
 
 ```
