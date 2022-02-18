@@ -21,9 +21,9 @@ timezone: America/Vancouver
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
-title: Chirpy                          # the main title
+title: Objectively Disorienting Language                           # the main title
 
-tagline: A text-focused Jekyll theme   # it will display as the sub-title
+tagline: The journey of an associate software engineer   # it will display as the sub-title
 
 description: >-                        # used by seo meta and the atom feed
   A minimal, responsive, and powerful Jekyll theme for presenting professional writing.
@@ -41,7 +41,7 @@ social:
   # Change to your full name.
   # It will be displayed as the default author of the posts and the copyright owner in the Footer
   name: Mei Chu
-  email: example@doamin.com             # change to your email address
+  email: meimchu@gmail.com             # change to your email address
   links:
     # The first element serves as the copyright owner's link
     - https://twitter.com/meimchu      # change to your twitter homepage
