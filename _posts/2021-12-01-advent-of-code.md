@@ -1,6 +1,6 @@
 ---
 title: Advent of Code 2021
-date: 2022-02-17
+date: 2021-12-01
 categories: [Etc]
 tags: [aoc]
 ---
