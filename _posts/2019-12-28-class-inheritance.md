@@ -1,7 +1,10 @@
 ---
-layout: post
 title: Class inheritance
+author:
+    name: Mei Chu
 date: 2019-12-28
+categories: [Python]
+tags: [class, oop]
 ---
 
 Class inheritance is an important subject to understand when it comes to objected oriented programming. It is the basis in which we can code as little as possible yet still have it contain as much information as possible. I want to focus on the initialization aspect of class inheritance and step through it so it becomes more clear.

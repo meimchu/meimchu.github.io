@@ -1,7 +1,10 @@
 ---
-layout: post
 title: Basic unit testing
+author:
+    name: Mei Chu
 date: 2019-04-06
+categories: [Python]
+tags: [unit test]
 ---
 
 Today I have begun learning and writing unit tests for some updates I have made to existing python functions. The idea of the unit test is to make sure the updated python modules/functions/classes all produce the same results as before the update. The update is simply swapping existing module usages with new module usages. I am using python's default ``unittest`` module and for now, I am doing ``test case``. Per the [definition on python.org](https://docs.python.org/2.7/library/unittest.html), ``test case`` is defined as

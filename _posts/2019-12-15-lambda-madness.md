@@ -1,7 +1,10 @@
 ---
-layout: post
 title: Lambda madness
+author:
+    name: Mei Chu
 date: 2019-12-15
+categories: [Python]
+tags: [lambda]
 ---
 
 A little while back, I have encountered something rather interesting with regards to Python's lambda.

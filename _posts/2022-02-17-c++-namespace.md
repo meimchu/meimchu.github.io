@@ -1,8 +1,8 @@
 ---
-layout: post
 title: Namespace
 date: 2022-02-17
-tag: c++
+categories: [C++]
+tags: [namespace]
 ---
 
 `::` is known as a **scope operator** in C++.
