@@ -3,7 +3,7 @@ title: Hello world
 author:
     name: Mei Chu
 date: 2019-04-06
-categories: [Python, C++]
+categories: [Python]
 tags: []
 ---
 
