@@ -2,7 +2,7 @@
 title: Namespace
 date: 2022-02-17
 categories: [C++]
-tags: [namespace]
+tags: [namespace, c++]
 ---
 
 `::` is known as a **scope operator** in C++.
