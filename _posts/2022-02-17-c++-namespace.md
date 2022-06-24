@@ -36,4 +36,3 @@ int main()
 
 ## Headers and Namespace Declarations
 It is a bad idea to include `using` in a header file because those codes get copied directly through `#include`. As such, if a header file has a particular `using` declaration, every cpp file using the header file will be forced to conform.
-
