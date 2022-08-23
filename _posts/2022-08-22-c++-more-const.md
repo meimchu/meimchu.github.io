@@ -12,27 +12,27 @@ Basically ‘const’ applies to whatever is on its immediate left (other than i
 ```
 
 So for example, very simply:
-```
+```cpp
 const int i;
 ```
 Nothing on the left, so i is a constant integer. The most basic const of all.
 
-```
+```cpp
 const int * i;
 ```
 Nothing on the left, so i is a variable pointer to a constant integer.
 
-```
+```cpp
 int const * i;
 ```
 i is the same as above since `const` refers to the "thing" to its left.
 
-```
+```cpp
 int * const i;
 ```
 The left of `const` is `*`, so this means this is a constant pointer to an integer variable.
 
-```
+```cpp
 int const * const i;
 ```
 There are two `const` here each with something to its left. i is a constant pointer to a constant integer.
